@@ -1,0 +1,578 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600italic);@import url(http://fonts.googleapis.com/css?family=Vidaloka);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400,700);
+@font-face {
+	font-family: 'icon';
+	src:url('../fonts/icomoon.eot?-wi69vk');
+	src:url('../fonts/icomoon.eot?#iefix-wi69vk') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-wi69vk') format('woff'),
+		url('../fonts/icomoon.ttf?-wi69vk') format('truetype'),
+		url('../fonts/icomoon.svg?-wi69vk#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.phone:before {
+	font-family: 'icon';
+	content: "\e600";
+}
+
+/* aside .button-mas{
+	margin-top: 1.5rem;
+	
+} */
+	
+
+    a {
+    outline: none;
+    }
+
+
+body {
+	background-image: url('../img/fdo-section.png');
+	font-family: "open sans";
+	font-size: 16px;
+	font-weight: 300;
+	padding:0;
+	text-align: center;
+	width: 100%;
+	color: #ddd;
+
+} 
+
+figure {
+  margin: 0;
+}
+h1, h2 {
+	margin:0;
+	line-height: 1.1;
+}
+h1 {	
+	color: #111;
+	font-family: Volkhov;
+	font-size: 1.4rem;
+	font-weight: 700;
+	/* margin-top: .2rem; */
+	/* text-shadow: 2px 2px 2px #999;	 */
+}
+
+
+
+header {
+	/* background-image: url('../img/fdo-header.jpg');	 */
+	background: #eee;
+	border-bottom: 2px solid #29ABE2;
+	
+	/* box-shadow: inset 5px 10px 0px -10px #29ABE2;	 */
+	/* min-height: 80px; */
+}
+header h2 {
+	color: #1d1d1d;
+	font-weight: normal;
+	font-size: 1.1rem;
+	font-style: italic;		
+	padding-bottom: 4px;	
+}
+header div {
+	display: inline-block;
+	vertical-align: top;	
+}
+header div:nth-child(2) {
+	background: #fff;
+	margin-right: 70%;
+	padding: .1rem;	
+}
+header div:nth-child(3) {
+	
+	font-size: 1.1rem;
+	position: absolute;	
+	right: .5em;
+	top: .2em;	
+	text-align: right;	
+}
+header div h3 {
+	background: #fff;
+	color: #1d1d1d;
+	font-family: Volkhov;
+	font-size: 3rem;
+	font-weight: 700;
+	margin: 0;
+	padding: .5rem;
+	position: absolute;
+	top: 0; 
+	left: .7rem;
+	z-index: 10;
+}
+header p {
+	color: #1d1d1d;
+	font-style: italic;
+	font-weight: 300;
+	margin: 0;   
+}
+
+nav h2 {
+	font-size: 2.5rem;
+	margin-top: 5rem;
+}
+small {
+	color: #29ABE2;
+	display: block;
+	font-size: 1.1rem;
+	margin-top: .5rem;
+	
+}
+
+.anima {
+	
+	box-shadow: inset 0px 10px 5px -10px #29ABE2;
+	height: 450px;
+	position: relative;
+}
+.anima aside {
+	margin-top: 2.5rem;
+}
+
+.anima div, .anima section {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 32%;
+}
+
+.anima div:nth-child(1) {
+	margin-right: .1rem;
+}
+.anima div:nth-child(odd) figure:first-child {
+	position: absolute;
+	top: 1rem;
+	left: 20rem;
+}
+.anima div:nth-child(odd) figure:nth-child(2) {
+	position: absolute;
+	top: 2.5rem;
+	left: 12rem;
+}
+.anima div:nth-child(odd) figure:nth-child(3) {
+	position: absolute;
+	top: 1rem;
+	left: 3rem;
+}
+.anima div:nth-child(odd) figure:nth-child(4) {
+	position: absolute;
+	top: 9rem;
+	left: 17rem;
+}
+.anima div:nth-child(odd) figure:nth-child(5) {
+	position: absolute;
+	top: 8rem;
+	left: 7rem;
+}
+.anima div:nth-child(odd) figure:nth-child(6) {
+	position: absolute;
+	top: 16rem;
+	left: 4rem;
+}
+.anima figure {
+	opacity: .7;
+	display: none;
+}
+.anima h2 {
+	display: none;
+	font-family: "open sans";
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-left: 2rem;
+	margin-top: 1rem;
+	
+}
+.anima h2:first-child {	
+	border-bottom: 1px solid #29ABE2;
+	font-style: normal;
+	font-size: 1.8rem;	
+	padding-bottom: 1rem;
+	text-align: center;
+	
+}
+.anima section {
+	text-align: left;
+}
+span.btn-plan {
+		cursor: pointer;
+}
+
+.button-i {	
+	left:0;	
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 0;
+	right:0;
+	z-index: 1000;
+	
+	
+	
+	
+}
+.button-i button {
+	background: #29ABE2;
+	color: #fff;
+}
+
+.button-mas {
+	background-color: rgba(255,255,255,.2);
+	border: 1px solid #ddd;
+	color: #999;
+	cursor: pointer;
+	display: none;
+	font-size: 1.8rem;	
+	padding: .2rem 1rem;
+}
+
+.formu h2{
+	
+}	
+.formu nav{
+	position: absolute;
+	right: 0;
+	top: 10rem;
+}
+.formu nav li{
+	background: #29ABE2;
+	color: #eee;
+	cursor: pointer;
+	list-style:none;
+	margin-bottom: 1rem;
+	padding: .5rem 1rem;
+	right: 0;
+	top: 10rem;
+}
+
+.formulari {
+	display: none;
+	left:0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .5rem;	
+	position: absolute;
+	right:0;
+	top: 0;	
+}
+.formulari input{
+	/* border-radius: 5px; */
+	color: #333;
+	border: 1px solid #3399CC;
+	padding-left: 5px;
+}
+.formulari input[type="submit"]{
+	color: #fff;
+	background: #3399CC; ;
+	/* box-shadow: 2px 2px 1px #666; */
+}	
+/* .parte2 h2 {
+	color: #29ABE2;
+}
+.parte2 li {
+	display: inline-block;
+	font-size: 3rem;	
+}
+.parte2 li:nth-child(2) {
+	margin: 5rem;	
+} */
+
+.parte3{
+	display: none;
+	font-family: "open sans";
+	font-weight: 300;
+	padding: 5rem 0;
+	
+}
+.parte3 aside {
+	margin-top: 7rem;
+	
+}
+.parte3 aside .btn-plan{
+	margin-top: 7rem;
+	background-color: rgba(255,255,255,.2);
+	border: 1px solid #ddd;
+	bottom: 4rem;
+	color: #999;
+    display: none;	
+	font-size: 2rem;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: .2rem 1rem;
+	position: absolute;	
+	right: 0;
+	width: 35%;
+	
+}
+
+.parte3 nav {
+	display: none;
+	position: absolute;
+	width: 25%;	
+	top: 6rem;
+	left: 1rem;
+}
+.parte3 article {
+	font-size: 1.6rem;
+	margin-left: 27%; 
+	padding: 0 1rem;
+	width: 70%;
+	
+}
+.parte3 article:nth-child(2), .parte3 article:nth-child(3), .parte3 article:nth-child(4) {
+	
+}
+/* .parte3 article:nth-child(3), .parte3 article:nth-child(4) {
+
+	display: inline-block;
+	
+		
+} */
+.parte3 article:nth-child(3), .parte3 article:nth-child(4) {
+
+	display: none;
+	
+		
+}
+.parte3 li {
+	background: transparent;
+	border: 1px solid #29ABE2;
+	color: #ddd;	
+	cursor: pointer;
+	font-size: 1.8rem;	
+	list-style: none;
+	margin: 2rem 0;
+	opacity: .7;
+	padding: .2rem 1rem;
+	transition: .5s;
+}
+.planes article{
+	border: 1px solid #eee;
+	margin: 0 1rem;
+}
+.planes article, .planes ul {
+	display: inline-block;
+	list-style: none;
+	padding: .5rem;
+	text-align: left;
+	vertical-align: top;
+}
+.planes h2 {
+	font-weight: 300;
+	margin-bottom: .5rem;
+}
+.planes h3 {
+	background: #eee;
+	/* border: 3px solid #29ABE2; */
+	bottom: 0;	
+	color: #29ABE2;
+	cursor: pointer;
+	display: none;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: .1rem;
+	position: fixed;
+	width: 100%;	
+	
+}
+.planes h4 {
+	color: #29ABE2;
+	font-size: 4rem;
+	font-weight: 300;	
+	margin-bottom: .7rem;
+	margin-top: 0;
+}
+.planes ul:nth-child(2) {
+	text-align: center;
+}
+
+.planes, .parte3, .parte2 {
+	display: none;
+}
+
+/* li.di {
+	color: red;
+} */
+.precio {
+	background: #29ABE2;
+	color: #eee;
+	display: none;	
+	font-size: 1.3rem;
+	
+	/* font-weight: 600; */
+	margin: 5rem;
+	/* overflow-y:hidden; */
+	padding: 2rem;	
+	right: 5rem;
+	text-align: center;	
+}
+.precio button {
+	background: transparent;
+	border: 2px solid #eee;
+	display: none;	
+	font-size: 2rem;
+	font-style: normal;	
+	
+	/* margin: 0 auto;
+	width: 25%; */
+}
+.precio h1 {	
+	color: #1d1d1d;	
+	font-size: 3.5rem;
+	font-style: normal;
+	
+}
+.precio p {	
+	display: none;
+	line-height: 25px;
+	margin: .9rem;	
+	text-align: left;
+}
+.precio span {	
+	color: #1d1d1d;	
+	font-style: italic;
+}
+
+.title-desc {
+	margin-top: 2rem;
+}
+.website {
+	background: #29ABE2;
+	color: #fff;
+	font-family: "open sans";
+	font-size: 2rem;
+	
+	font-weight: 300;
+	
+	
+}
+
+@media screen and (max-width:1200px) {
+	.anima div {
+		display: none;
+	}
+	.anima section {
+		margin-bottom: 4rem;
+		width: 80%;	
+	}
+}
+
+@media screen and (max-width:900px) {
+	.formu h2{
+		text-align: left;
+		margin-left: 1rem;
+}
+}
+
+@media screen and (max-width:723px) {
+	header div:nth-child(2) {
+  
+    margin-top: 1.7rem;
+	margin-right: 0;
+}
+	.formulari input{
+		display: block;
+		margin: 0 auto;
+		text-align: center;		
+	}
+}
+@media screen and (max-width:546px) {
+	header div:nth-child(3) {
+		display: none;
+	}
+	.anima h2 {	
+		font-size: 1.1rem;	
+	}
+	.anima h2:first-child {		
+		font-size: 1.3rem;	
+	}
+	header div h3 {
+		font-size: 1.5rem;
+		left: 0;
+	}
+	.anima section {
+		
+		width: 95%;	
+	}
+	.anima section {
+		margin-bottom: 2rem;		
+	}
+	.precio {	
+	font-size: 1rem;
+	margin: 1rem;
+	padding: 1rem;		
+    }
+	.precio h1 {	
+	font-size: 2.5rem;	
+	}
+	.formu{		
+		margin-top: 6rem;
+	}
+	.formu nav{
+		
+		top: 1rem;
+	}
+	.formu nav li{
+		font-size: 1.5rem;
+		margin-bottom: .5rem;
+		padding: .2rem .5rem;
+		
+		top: 1rem;
+	}
+}
+
+@media screen and (max-width:364px) {
+	header div h3 {
+		top: 50px;
+	}
+}
+
+/* ---------parte3---------------------- */
+
+@media screen and (max-width:1057px) {
+
+.parte3{
+	text-align: center;
+	
+	padding: 1rem 0;
+	
+
+	
+}
+.parte3 aside {
+	margin-top: 4rem;
+	
+}
+.parte3 aside .btn-plan{
+	
+	position: static;	
+	
+	
+}
+
+.parte3 nav {
+	
+	position: static;
+	width: 95%;	
+	
+}
+.parte3 article {
+	font-size: 1.3rem;
+	margin-left: 0;
+	padding: 0 1rem;
+	width: 90%;
+	
+}
+
+
+.parte3 li {
+	
+	font-size: 1.2rem;	
+	
+	margin: 1rem 0;
+	
+	padding: .2rem 1rem;
+	
+}
+
